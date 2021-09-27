@@ -1,0 +1,13 @@
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+%view-size-font {
+  font-size: 2vw;
+}
+
+.message {
+  @extend %message-shared;
+}

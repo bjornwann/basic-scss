@@ -1,0 +1,11 @@
+@import "_css_import.css";
+
+:root {
+  --font-stack: Helvetica, sans-serif;
+  --primary-color: rgb(64, 65, 61);
+}
+
+body {
+  font: 100% var(--font-stack);
+  color: var(--primary-color);
+}
